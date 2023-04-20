@@ -1,0 +1,39 @@
+// Estilos Main
+$color2: #8b9658;
+main {
+  .main-paginas {
+    display: block;
+    background-color: $color2;
+    width: 100%;
+
+    .container-info1 {
+      margin-bottom: 5px;
+      line-height: 30px;
+      padding: 45px;
+    }
+
+    .tituloss {
+      color: #404040;
+      text-decoration: underline;
+      text-align: center;
+      font-size: 25px;
+    }
+    .lcf {
+      color: #404040;
+    }
+  }
+}
+
+.separo {
+  padding-bottom: 25px;
+}
+
+.figuraa {
+  :hover > img {
+    transform: scale(1.1);
+  }
+}
+
+.lcolor {
+  color: #ffffe0;
+}
